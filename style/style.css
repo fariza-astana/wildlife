@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 120px;
+}
+.folk-image {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 780px;
+}
+.header {
+   height: 110px;
+}
+.header-content {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+}
+.logo {
+    display: flex;
+    width: 250px;
+}
+.logo-part1 {
+    height: 58.43px;
+    width: 68.2p;
+}
+.logo-part2 {
+    height: 60px;
+    width: 155px; 
+    margin-left: 15.73px; 
+}
+.h1-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 60px;
+text-transform: uppercase;
+color: #F7F7F7;
+    margin-top: 0px;
+    margin-bottom: opx;
+}
+.header-links {
+    width: 950px;
+    display: flex;
+    text-align: end;
+}
+.header-navigation-list {
+    width: 950px;
+    justify-content: space-between;
+    justify-content: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header-navigation-item {
+    display: inline;
+    margin-right: 63px;
+}
+
+.header-navigation-item:hover {
+    text-decoration: underline;
+}
+.blog a, .contacts a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #CD6326;
+  border-radius: 5px;
+  font-family: Open Sans;
+  height: 50px;
+  width: 120px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  /*line-height: 27px;
+  display: flex;*/
+  align-items: center;
+  text-align: center;
+  color: #F7F7F7;
+  cursor: pointer;
+
+}
+.button:hover {
+    background-color: #CD6326;
+    border: 2px solid #CD6326;
+}
+.button:focus {
+    background-color: #8F5613;
+    border: transparent;
+}
+.sign a {
+    height: 48px;
+    width: 74px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.section1-content {
+    width: 1200px;
+}
+
+.title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.sectin1-text {
+    width: 274px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    margin-bottom: 49px;
+}
+.left, .right {
+    cursor: pointer;
+}
+
+.section1-button {
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-style: none;
+    border-radius: 5px;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section1-button:hover {
+    background: #E39128;
+    border: transparent;
+}
+.section1-button:focus {
+    background: #8F5613;;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.background-color {
+    background-color: rgb(204, 204, 204);/*#CCCCCC;*/
+}
+.section2 {
+    height: 1368px;
+    width: 1440px;
+}
+    
+.section2-content {
+    width: 1200px;
+    height: 1368px;
+}
+
+
+.section2-header {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.section2-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.section2-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    margin-top: 0px;
+}
+
+.section2-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-end {
+    margin-top: 239px;
+}
+.section2-end-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+.section2-input-address {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+}
+.section2-input {
+    width: 540px;
+    background-color: transparent;
+    border: 1px solid #666666;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    padding-left: 15px;
+}
+.section2-button {
+    width: 120px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+}
+.section2-button:focus {
+    background: #8F5613;
+    border: transparent;
+}
+.section2-button:hover {
+    background: #E39128;
+    border: transparent;
+}
+
+
+.footer {
+    background-image: url("../images/footer-image.jpg");
+    height: 360px;
+}
+.footer-content {
+    padding: 150.8px 120px 110px 121.07px;
+    display: flex;
+    position: relative;
+}
+
+.footer-links {
+    width: 450px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+.footer-navigation-list {
+    width: 570px;
+    height: 60px;
+    justify-content: space-between;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-navigation-item {
+    display: inline;
+    margin-right: 63px;
+}
+.footer-navigation-item:hover {
+    text-decoration: underline;
+}
+
+.articles a, .about a, .more a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.media {
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+}
+.media-item {
+    margin-right: 27px;
+    cursor: pointer;
+}
